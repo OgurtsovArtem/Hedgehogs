@@ -27,6 +27,7 @@ function openSubMenu(e) {
 function openMenu() {
   headerButton.classList.toggle('active');
   navigation.classList.toggle('active');
+  document.body.classList.toggle('fixed');
 }
 
 headerButton.addEventListener('click', openMenu);
@@ -64,4 +65,8 @@ buttonBack.addEventListener('click', previousSlide);
 // Для [.slider__container] есть возможность скрыть кнопки и принять вид для мобильной версии для этого нужно добавить класс _phoneScreen =>
 // [.slider__container._phoneScreen] или добавить  _phoneScreen тегу body, перед этим разкомментируйте код в файле slider__container.
 // Сейчас сотит заглушка на 920px
+
+// /* Добавить отрисовку ifnfo компонентов при мобильной версии */
+// /* Анимировать слайдер для pc */
+// /* Добивить возмомжность скролить хедер и фиксировать страницу при открытии навигации */
 //= ===================================================================================================================================

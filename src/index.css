@@ -7,6 +7,7 @@
 @import url(./blocks/width-control/width-control.css);
 @import url(./blocks/link/link.css);
 @import url(./blocks/button/button.css);
+@import url(./blocks/fixed/fixed.css);
 /* BLOCKS */
 @import url(./blocks/header/header.css);
 @import url(./blocks/button-burger/button-burger.css);

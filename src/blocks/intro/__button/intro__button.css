@@ -10,3 +10,9 @@
   transform: translateX(-50%);
   margin: 2.125rem 0;
 }
+
+@media (max-width: 520px){
+  .intro__button{
+    margin: 2.125rem 0 0;
+  }
+}

@@ -4,7 +4,7 @@
   top: 3.125rem;
   width: 7.5rem;
   height: 3.5rem;
-  fill:  var(--main-text-color);
+  fill:  var(--white-color);
 }
 
 @media (max-width: 730px) {

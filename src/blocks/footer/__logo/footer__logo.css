@@ -1,0 +1,15 @@
+.footer__logo {
+  position: absolute;
+  left: 0;
+  top: 3.125rem;
+  width: 7.5rem;
+  height: 3.5rem;
+  fill:  var(--main-text-color);
+}
+
+@media (max-width: 730px) {
+  .footer__logo {
+    left: 0;
+    top: 2.1875rem;
+  }
+}

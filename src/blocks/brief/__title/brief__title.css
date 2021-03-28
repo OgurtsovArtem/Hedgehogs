@@ -1,0 +1,26 @@
+.brief__title {
+  font-family: CormorantInfant, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  text-transform: uppercase;
+  color: #195557;
+  margin: 1.875rem 0 0.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+
+@media (max-width:920px){
+  .brief__title {
+    max-width: 11.375rem;
+  }
+}
+@media (max-width:520px){
+  .brief__title {
+    margin: 1rem 0 0.5rem;
+    text-align: left;
+    max-width: 7.8125rem;
+  }
+}

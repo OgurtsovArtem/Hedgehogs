@@ -1,0 +1,8 @@
+.footer__contacts {
+  font-family: Raleway;
+  font-style: normal;
+  font-size: 1.375rem;
+  line-height: 1.625rem;
+  text-transform: uppercase;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+}

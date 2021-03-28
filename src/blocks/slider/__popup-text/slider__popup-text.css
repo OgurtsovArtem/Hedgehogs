@@ -1,0 +1,11 @@
+.slider__popup-text {
+  margin: 0;
+  padding-right: 2rem;
+  padding-left: 0.5rem;
+}
+
+@media (max-width: 1388px) {
+  .slider__popup-text {
+    padding-right: 0.5rem;
+  }
+}

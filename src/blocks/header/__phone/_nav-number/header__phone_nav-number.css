@@ -1,0 +1,25 @@
+.header__phone_nav-number {
+  display: none;
+  visibility: hidden;
+  margin: 0;
+}
+@media (max-width: 920px){
+  .header__phone_nav-number {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    visibility: visible;
+  }
+}
+@media (max-width: 520px){
+  .header__phone_nav-number {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 2.5rem;
+    transform: translateX(0);
+    display: block;
+    visibility: visible;
+  }
+}

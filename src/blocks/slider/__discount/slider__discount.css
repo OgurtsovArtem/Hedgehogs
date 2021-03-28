@@ -1,0 +1,39 @@
+.slider__discount {
+  display: block;
+  position: absolute;
+  top: -4%;
+  left: 6%;
+  transform: translate(50%, 50%);
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.4375rem;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #FFFFFF;
+  z-index: 2;
+}
+.slider__discount::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 4.25rem;
+  height: 2.25rem;
+  background-color: var(--main-greenish-gray-color);
+  z-index: -1;
+
+}
+
+@media (max-width: 1388px) {
+  .slider__discount {
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+  }
+  .slider__discount::before {
+    width: 3rem;
+    height: 1.3125rem;
+  }
+}

@@ -1,0 +1,23 @@
+.order-form__textarea {
+  flex: 0 1 100%;
+  max-height: 6.75rem;
+  background: #F8F8F8;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.order-form__textarea::-webkit-input-placeholder {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  padding-top: 1rem;
+  padding-left: 1.6875rem;
+}
+
+@media (max-width: 660px) {
+  .order-form__textarea  {
+    flex: unset;
+    width: 100%;
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,21 @@
+.brief__subtitle {
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  text-align: center;
+  margin: 0;
+}
+
+@media (max-width:920px){
+  .brief__subtitle {
+    max-width: 11.375rem;
+  }
+}
+@media (max-width:520px){
+  .brief__subtitle {
+    text-align: left;
+    max-width: 7.8125rem;
+  }
+}

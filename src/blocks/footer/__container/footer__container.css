@@ -1,0 +1,55 @@
+.footer__container {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 11.5rem;
+}
+@media (max-width: 1353px) {
+  .footer__container {
+    display: grid;
+    grid-template-areas: "social contacts"
+                      "navigation navigation";
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(2, 1fr);
+    padding: 7.6875rem 0 4.6875rem;
+  }
+  .footer__container > .footer__nav {
+    grid-area: navigation;
+    justify-self: center;
+    padding-top: 2rem;
+  }
+  .footer__container > .footer__socials-container {
+    grid-area: social;
+    align-self: end;
+    justify-self: end;
+  }
+  .footer__container > .footer__contacts {
+    grid-area: contacts;
+    align-self: end;
+    justify-self: start;
+  }
+}
+@media (max-width: 730px) {
+  .footer__container {
+    grid-template-areas: "navigation social"
+                          "contacts social";
+    padding-top: 2.1875rem;
+    padding-bottom: 7rem;
+  }
+  .footer__container > .footer__nav {
+    flex-direction: column;
+    padding: 0;
+    justify-self: start;
+    align-self: end;
+    padding-top: 8.5625rem;
+  }
+  .footer__container > .footer__socials-container {
+    grid-area: social;
+    align-self: start;
+    justify-self: end;
+  }
+  .footer__container > .footer__contacts {
+    padding-top: 3.375rem;
+  }
+}

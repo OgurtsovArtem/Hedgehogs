@@ -1,0 +1,17 @@
+.order-form__button {
+  position: relative;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: #FFFFFF;
+  transform: translateY(100%);
+  margin-top: 1.5625rem;
+}
+
+@media (max-width: 540px) {
+  .order-form__button  {
+    transform: translateY(0);
+  }
+}

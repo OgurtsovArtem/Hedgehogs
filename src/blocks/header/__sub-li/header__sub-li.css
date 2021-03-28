@@ -1,0 +1,3 @@
+.header__sub-li:not(:last-child) {
+  margin-bottom: 1.1875rem;
+}

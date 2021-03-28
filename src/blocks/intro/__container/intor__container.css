@@ -1,0 +1,24 @@
+.intro__container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 18.125rem;
+}
+
+@media (max-width:1355px) {
+  .intro__container {
+    padding-top: 12.125rem;
+  }
+}
+@media (max-width:920px) {
+  .intro__container {
+    padding-top: 8.125rem;
+  }
+}
+@media (max-width:520px) {
+  .intro__container {
+    align-items: flex-start;
+    padding-top: 5.1875rem;
+  }
+}

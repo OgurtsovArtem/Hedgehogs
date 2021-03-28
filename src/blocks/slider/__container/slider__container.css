@@ -1,0 +1,60 @@
+.slider__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-text-color);
+  margin-top: 2.75rem;
+  margin-bottom: 4rem;
+}
+.slider__container._phoneScreen .slider__cards > .slider__card {
+  margin-left: 2.4375rem;
+  margin-right: 0;
+}
+.slider__container._phoneScreen  .slider__cards {
+  margin: 0;
+}
+.slider__container._phoneScreen > .slider__button {
+  display: none;
+}
+.slider__container._phoneScreen {
+  width: 100%;
+  touch-action: pan-x;
+}
+
+/* If class is added to body tag use this code */
+
+/* body._phoneScreen .slider__container .slider__cards > .slider__card {
+  margin-left: 2.4375rem;
+  margin-right: 0;
+}
+body._phoneScreen .slider__container .slider__cards {
+  margin: 0;
+}
+body._phoneScreen .slider__container > .slider__button {
+  display: none;
+}
+.slider__container._phoneScreen {
+  width: 100%;
+  touch-action: pan-x;
+}
+*/
+
+/* ЗАГЛУШКА */
+/* ------------------------------------------------------ */
+@media (max-width: 920px) {                             /**/
+  .slider__container .slider__cards > .slider__card {   /**/
+    margin-left: 1.25rem;                               /**/
+    margin-right: 0;                                    /**/
+  }                                                     /**/
+  .slider__container  .slider__cards {                  /**/
+    margin: 0;                                          /**/
+  }                                                     /**/
+  .slider__container > .slider__button {                /**/
+    display: none;                                      /**/
+  }                                                     /**/
+  .slider__container {                                  /**/
+    width: 100%;                                        /**/
+    touch-action: pan-x;                                /**/
+  }                                                     /**/
+}
+/* ------------------------------------------------------ */

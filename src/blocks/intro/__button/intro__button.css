@@ -1,0 +1,12 @@
+.intro__button {
+  position: relative;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: #FFFFFF;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 2.125rem 0;
+}

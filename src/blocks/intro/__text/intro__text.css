@@ -1,0 +1,17 @@
+.intro__text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: #70908B;
+  max-width: 46rem;
+  margin: 0 auto;
+}
+@media (max-width:920px) {
+  .intro__text {
+    text-align: justify;
+    font-size: 0.75rem;
+    line-height: 146.4%;
+  }
+}

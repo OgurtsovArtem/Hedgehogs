@@ -1,0 +1,25 @@
+.order-form__input {
+  flex: 1 0 3.33333%;
+  height: 3.875rem;
+  background: #F8F8F8;
+  border-radius: 0.5rem;
+  border: none;
+  margin-bottom: 1.25rem;
+  margin-right: 1rem;
+}
+.order-form__input:last-of-type {
+  margin-right: 0;
+}
+.order-form__input::-webkit-input-placeholder {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  padding-left: 1.6875rem;
+}
+@media (max-width: 660px) {
+  .order-form__input {
+    flex: unset;
+    width: 100%;
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,7 @@
+.order-form__radio-lable {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0.875rem;
+}

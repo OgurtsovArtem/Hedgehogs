@@ -1,0 +1,3 @@
+.footer__link.link::after {
+  background-color: var(--white-color) !important;
+}

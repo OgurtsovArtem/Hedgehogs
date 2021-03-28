@@ -1,0 +1,9 @@
+.order-form__checkbox-input[type="checkbox"]:checked + label {
+    background-color: var(--main-greenish-gray-color);
+    color: #fff;
+    transition: all .2s;
+}
+.order-form__checkbox-input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+}

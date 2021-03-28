@@ -1,0 +1,27 @@
+.brief__circle {
+  display: block;
+  position: relative;
+  width: 9.5rem;
+  height: 9.5rem;
+  border-radius: 50%;
+}
+
+.brief__circle.heart {
+  background: var(--main-greenish-gray-color);
+  box-shadow: 4px 4px 20px #C2CCCA, -8px -8px 20px #FFFFFF;
+}
+.brief__circle.vaccination {
+  background: var(--main-light-aqua-color);
+  box-shadow: 4px 4px 20px #C2CCCA, -8px -8px 20px #FFFFFF;
+}
+.brief__circle.hedgehog {
+  background: var(--main-biscuit-color);
+  box-shadow: 4px 4px 20px #C2CCCA, -8px -8px 20px #FFFFFF;
+}
+
+@media (max-width: 520px){
+  .brief__circle {
+    width: 5.75rem;
+    height: 5.75rem;
+  }
+}

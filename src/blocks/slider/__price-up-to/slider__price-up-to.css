@@ -1,0 +1,9 @@
+.slider__price-up-to {
+  font-family: Cormorant Infant;
+  font-style: normal;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: #C2CCCA;
+  text-decoration: line-through;
+  margin: 0;
+}

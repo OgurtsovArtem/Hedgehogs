@@ -1,0 +1,14 @@
+.slider__title {
+  font-family: CormorantInfant;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin: 0;
+}
+@media (max-width: 1388px) {
+  .slider__title {
+    font-size: 1.875rem;
+    line-height: 99.6%;
+  }
+}

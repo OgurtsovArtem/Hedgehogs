@@ -1,0 +1,15 @@
+.header__backet_counter {
+  border-radius: 0.59375rem;
+  min-width: 1.1875rem;
+  min-height: 1.1875rem;
+  position: absolute;
+  top: -16%;
+  left: 72%;
+  padding: 0.1875rem;
+  background-color: #FFEDCD;
+  font-family: Raleway;
+  font-style: normal;
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  font-weight: bold;
+}

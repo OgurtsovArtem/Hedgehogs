@@ -1,0 +1,6 @@
+@import url(./_size/slider__info-icon_size.css);
+
+.slider__info-icon {
+  width: 2rem;
+  height: 2rem;
+}

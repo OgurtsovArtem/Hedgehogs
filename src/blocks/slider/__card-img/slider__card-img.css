@@ -1,0 +1,18 @@
+.slider__card-img {
+  position: absolute;
+  bottom: 4%;
+  right: 4%;
+  max-width: 22.6875rem;
+  max-height: 16.5625rem;
+  object-fit: cover;
+  background-repeat: no-repeat
+}
+
+@media (max-width: 1388px) {
+  .slider__card-img {
+    max-width: 11.0625rem;
+    max-height: 8.0625rem;
+    bottom: 19%;
+    right: -13%;
+  }
+}

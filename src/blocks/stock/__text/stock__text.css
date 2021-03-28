@@ -1,0 +1,17 @@
+.stock__text {
+  max-width: 11.9375rem;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  margin: 0;
+}
+
+@media (max-width: 425px) {
+  .stock__text {
+    text-align: start;
+  }
+}

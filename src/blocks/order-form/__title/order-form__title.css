@@ -1,0 +1,15 @@
+.order-form__title {
+  font-family: CormorantInfant;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.8125rem;
+  line-height: 3.375rem;
+  padding-top: 2rem;
+}
+
+@media (max-width: 660px) {
+  .order-form__title {
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+  }
+}

@@ -1,0 +1,51 @@
+.brief__img{
+  position: absolute;
+  z-index: -2;
+}
+.brief__img.hedgehog-dad {
+  top: -23%;
+  left: 0;
+}
+.brief__img.hedgehog-son {
+  top: 24%;
+  right: 0;
+}
+
+@media (max-width: 1700px) {
+  .brief__img.hedgehog-dad {
+    left: -10%;
+  }
+}
+@media (max-width: 1353px) {
+  .brief__img.hedgehog-dad {
+    left: -13%;
+    top: -56%;
+  }
+  .brief__img.hedgehog-son{
+    top: 78%;
+  }
+}
+@media (max-width: 920px) {
+  .brief__img.hedgehog-dad {
+    display: none;
+    visibility: hidden;
+  }
+  .brief__img.hedgehog-son{
+    right: 0;
+    top: 4%;
+  }
+}
+@media (max-width: 520px){
+  .brief__img.hedgehog-son{
+    right: 0;
+    top: 8%;
+    height: 13rem;
+  }
+}
+
+@media (max-width: 319px){
+  .brief__img.hedgehog-son {
+    display: none;
+    visibility: hidden;
+  }
+}

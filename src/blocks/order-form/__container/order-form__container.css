@@ -1,0 +1,13 @@
+.order-form__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2.4375rem 2.75rem;
+  color: var(--main-text-color);
+}
+@media (max-width: 660px) {
+  .order-form__container {
+    padding: 1.4375rem 1.75rem;
+  }
+}

@@ -1,0 +1,12 @@
+@import url(./__cads-list/brief__cards-list.css);
+@import url(./__card/brief__card.css);
+@import url(./__circle/brief__circle.css);
+@import url(./__container/brief__container.css);
+@import url(./__icon/brief__icon.css);
+@import url(./__img/brief__img.css);
+@import url(./__subtitle/brief__subtitle.css);
+@import url(./__title/brief__title.css);
+
+.brief {
+  position: relative;
+}

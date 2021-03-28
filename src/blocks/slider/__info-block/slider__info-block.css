@@ -1,0 +1,15 @@
+.slider__info-block{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 3.375rem 0 3.375rem 3.375rem;
+  width: 14.75rem;
+}
+
+@media (max-width: 1388px) {
+  .slider__info-block {
+    padding: 2.75rem 0 2.75rem 1.8125rem;
+    width: 9.125rem;
+  }
+}

@@ -1,0 +1,12 @@
+.stock__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 425px) {
+  .stock__container {
+    align-items: flex-start;
+  }
+}

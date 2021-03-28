@@ -1,0 +1,4 @@
+.header__phone_number {
+  margin: 0;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}

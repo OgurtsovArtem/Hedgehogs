@@ -1,0 +1,16 @@
+@import url(./_icon/slider__button_icon.css);
+
+.slider__button {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  transition: .3s;
+  z-index: 30;
+}
+.slider__button.button__next:hover > .slider__button_icon {
+  transform: translateX(1rem);
+}
+.slider__button.button__back:hover > .slider__button_icon {
+  transform: translateX(-1rem);
+}

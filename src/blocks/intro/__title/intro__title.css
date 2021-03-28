@@ -1,0 +1,26 @@
+.intro__title {
+  max-width: 27.6875rem;
+  max-height: 5.9375rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media (max-width:1355px) {
+  .intro__title {
+    max-height: 3.75rem;
+  }
+}
+@media (max-width:920px) {
+  .intro__title {
+    width: 13.75rem;
+    max-height: 2.75rem;
+  }
+}
+@media (max-width:520px) {
+  .intro__title {
+    width: 11.75rem;
+    left: 0;
+    transform: translateX(0);
+    max-height: 2.75rem;
+  }
+}

@@ -1,0 +1,13 @@
+@import url(./_counter/header__backet_counter.css);
+
+.header__backet {
+  position: relative;
+  width: 2.3125rem;
+  height: 2.0625rem;
+}
+
+@media (max-width: 1353px) {
+  .header__backet {
+    margin-bottom: var(--header-li-padding);
+  }
+}

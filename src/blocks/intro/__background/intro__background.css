@@ -1,0 +1,23 @@
+.intro__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  min-height: 680px;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -10;
+}
+@media (max-width: 1553px) and (min-width: 920px){
+  .intro__background {
+    height: 1266px;
+  }
+}
+@media (max-width: 920px) {
+  .intro__background {
+    height: 815px;
+  }
+}
+

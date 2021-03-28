@@ -1,0 +1,16 @@
+.slider__card {
+  position: relative;
+  min-width: 35.625rem;
+  height: 24.8125rem;
+  margin-right: 2.4375rem;
+  border-radius: 1.25rem;
+  margin-top: 1rem;
+  background:linear-gradient(-45deg, transparent 3.5625rem, var(--main-biscuit-color) 0);
+}
+
+@media (max-width: 1388px) {
+  .slider__card {
+    min-width: 15.25rem;
+    height: 19.875rem;
+  }
+}

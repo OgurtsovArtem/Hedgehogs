@@ -1,0 +1,18 @@
+.header__ul {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 920px) {
+  .header__ul {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 520px) {
+  .header__ul {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 6.25rem 0 0 2.5rem;
+  }
+}

@@ -1,0 +1,11 @@
+.slider__info{
+  position: absolute;
+  top: 5%;
+  right: 4%;
+  fill: var(--main-text-color);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+

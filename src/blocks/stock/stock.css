@@ -1,0 +1,12 @@
+@import url(./__icon/stock__icon.css);
+@import url(./__storage/stock__storage.css);
+@import url(./__text-date/stock__text-date.css);
+@import url(./__text/stock__text.css);
+@import url(./__title/stock__title.css);
+@import url(./__container/stock__container.css);
+@import url(./__title-container/stock__title-container.css);
+
+.stock {
+  margin-top: 6.34375rem;
+  margin-bottom: 3.75rem;
+}

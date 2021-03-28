@@ -1,0 +1,31 @@
+/* CONTAINERS */
+@import url(./__backet/header__backet.css);
+@import url(./__contact/header__contact.css);
+@import url(./__container/header__container.css);
+/* PHONE */
+@import url(./__phone/header__phone.css);
+@import url(./__phone-icon/header__phone-icon.css);
+@import url(./__phone-container/header__phone-container.css);
+/* NAVIGATION */
+@import url(./__nav/header__nav.css);
+@import url(./__ul/header__ul.css);
+@import url(./__info/header__info.css);
+@import url(./__li/header__li.css);
+@import url(./__link/header__link.css);
+/* SUBNAVIGATION */
+@import url(./__sub-li/header__sub-li.css);
+@import url(./__sub-link/header__sub-link.css);
+@import url(./__sub-list/header__sub-list.css);
+/* OTHER COMPONENT */
+@import url(./__icon/header__icon.css);
+@import url(./__logo/header__logo.css);
+@import url(./__button/header__button.css);
+@import url(./__button-arrow/header__button-arrow.css);
+
+
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: var(--main-text-color);
+}

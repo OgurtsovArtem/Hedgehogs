@@ -1,0 +1,23 @@
+.slider__text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  color: #000;
+  margin: 1rem 0;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+@media (max-width: 1388px) {
+  .slider__text {
+    -webkit-line-clamp: 7;
+    margin: 0.3125rem 0;
+    font-size: 0.6875rem;
+    line-height: 141.9%;
+    width: 6.875rem;
+  }
+}

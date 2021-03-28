@@ -1,0 +1,17 @@
+.header__logo {
+  position: absolute;
+  left: 2.5rem;
+  top: 1.875rem;
+  width: 7.5rem;
+  height: 3.5rem;
+  z-index: 100;
+}
+
+@media (max-width: 919px) {
+  .header__logo {
+    width: 3.5rem;
+    height: 1.625rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

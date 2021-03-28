@@ -1,0 +1,12 @@
+.slider__cards {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 73.6875rem;
+  margin: 0 2.1875rem;
+  -ms-overflow-style: none;
+}
+.slider__cards::-webkit-scrollbar { width: 0; }
+

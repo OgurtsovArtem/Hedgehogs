@@ -1,0 +1,19 @@
+.brief__icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  fill: var(--main-text-color);
+}
+.brief__icon.heart {
+  width: 2.6875rem;
+  height: 2.6875rem;
+}
+.brief__icon.vaccination {
+  width: 2.875rem;
+  height: 2.875rem;
+}
+.brief__icon.hedgehog {
+  width: 4.5rem;
+  height: 4.5rem;
+}

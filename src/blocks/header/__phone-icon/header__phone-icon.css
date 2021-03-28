@@ -1,0 +1,17 @@
+.header__phone-icon {
+  position: relative;
+  width: 4.3125rem;
+  height: 4.3125rem;
+  background: linear-gradient(1.36deg, #B0D3CE 12.29%, #FFEDCE 83.89%);
+  box-shadow: -0.25rem -0.25rem 1.25rem #FFFFFF, 0.25rem 0.25rem 1.25rem #CFD7D3;
+  border-radius: 50%;
+  margin-right: 1.25rem;
+}
+
+@media (max-width: 1353px) {
+  .header__phone-icon {
+    margin: 0;
+    width: 2.1875rem;
+    height: 2.1875rem;
+  }
+}

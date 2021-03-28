@@ -1,0 +1,10 @@
+.footer__li:not(:last-child) {
+  margin-right: 5.3125rem;
+}
+
+@media (max-width: 730px) {
+  .footer__li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 1.875rem;
+  }
+}

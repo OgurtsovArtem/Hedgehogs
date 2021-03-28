@@ -1,0 +1,15 @@
+.header__contact {
+  margin: 0 5rem 0 8.25rem;
+}
+
+@media (max-width: 1353px) {
+  .header__contact {
+    margin: 0 2rem;
+    padding-bottom: var(--header-li-padding);
+  }
+}
+@media (max-width: 920px) {
+  .header__contact {
+    margin: 0 0.8125rem;
+  }
+}

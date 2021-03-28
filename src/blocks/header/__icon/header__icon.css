@@ -1,0 +1,6 @@
+.header__icon {
+  display: block;
+  fill: var(--main-text-color);
+  width: inherit;
+  height:  inherit;
+}

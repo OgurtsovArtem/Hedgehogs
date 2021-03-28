@@ -1,0 +1,17 @@
+@import url(./__contacts/footer__contacts.css);
+@import url(./__container/footer__container.css);
+@import url(./__copyright/footer__copyright.css);
+@import url(./__social-icon/footer__social-icon.css);
+@import url(./__li/footer__li.css);
+@import url(./__link/footer__link.css);
+@import url(./__list/footer__list.css);
+@import url(./__nav/footer__nav.css);
+@import url(./__socials-container/footer__socials-container.css);
+@import url(./__logo/footer__logo.css);
+@import url(./__social-link/footer__social-link.css);
+
+.footer {
+  background-color: var(--main-greenish-gray-color);
+  color: var(--white-color);
+}
+

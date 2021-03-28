@@ -1,0 +1,13 @@
+.footer__socials-container {
+  margin: 0 4.75rem 0 6.5rem;
+}
+
+@media (max-width: 730px) {
+  .footer__socials-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+  }
+}

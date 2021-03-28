@@ -1,0 +1,13 @@
+:root {
+  /* COLOR */
+  --main-text-color: #195557;
+
+  --main-biscuit-color: #FFEDCD;
+  --main-light-aqua-color:  #E2F0DF;
+  --main-greenish-gray-color:  #70908B;
+
+  --white-color: #fff;
+  /* VARIABLES */
+  --header-li-padding: 1rem;
+
+}

@@ -1,0 +1,6 @@
+.slider__button_icon {
+  fill: var(--main-text-color);
+  width: 1.5rem;
+  height: 1.5rem;
+  transition: .3s;
+}

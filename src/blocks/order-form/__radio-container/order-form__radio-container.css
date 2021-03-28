@@ -1,0 +1,16 @@
+.order-form__radio-container {
+  flex: 0 1 45%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+@media (max-width: 820px) {
+  .order-form__radio-container {
+
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+}

@@ -1,0 +1,13 @@
+.header__phone-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media (max-width: 1353px) {
+  .header__phone-container {
+    display: none;
+    visibility: hidden;
+  }
+}

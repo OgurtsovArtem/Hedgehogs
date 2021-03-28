@@ -1,0 +1,36 @@
+.header__nav {
+  font-family: CormorantInfant, Arial, Helvetica, sans-serif;
+  font-style:  normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+@media (max-width: 920px) {
+  .header__nav {
+    position: absolute;
+    top: -110vh;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFEFE;
+    box-shadow: 0.25rem 0.25rem 1.25rem #c2ccca;
+    transition: .3s;
+  }
+  .header__nav.active {
+    top: 0;
+    left: 0;
+  }
+
+}
+@media (max-width: 520px){
+  .header__nav {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}

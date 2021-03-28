@@ -1,0 +1,30 @@
+@import url(./__button-container/order-form__button-container.css);
+@import url(./__checkbox-container/order-form__checkbox-container.css);
+@import url(./__checkbox-input/order-form__checkbox-input.css);
+@import url(./__checkbox-lable/order-form__checkbox-lable.css);
+@import url(./__checkbox-text/order-form__checkbox-text.css);
+@import url(./__container/order-form__container.css);
+@import url(./__input-email/order-form__input-email.css);
+@import url(./__input-number/order-form__input-number.css);
+@import url(./__input-text/order-form__input-text.css);
+@import url(./__radio-container/order-form__radio-container.css);
+@import url(./__radio-input/order-form__radio-input.css);
+@import url(./__radio-lable/order-form__radio-lable.css);
+@import url(./__textarea/order-form__textarea.css);
+@import url(./__title/order-form__title.css);
+@import url(./__data-container/order-form__data-container.css);
+@import url(./__input/order-form__input.css);
+@import url(./__button/order-form__button.css);
+
+.order-form {
+  background: #EAEEEF;
+  border-radius: 1.875rem;
+  max-width: 74.8125rem;
+}
+
+@media (max-width: 540px) {
+  .order-form  {
+      width: 100%;
+      border-radius: unset;
+  }
+}

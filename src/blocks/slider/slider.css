@@ -1,0 +1,25 @@
+/* BLOCKS */
+@import url(./__card/slider__card.css);
+@import url(./__cards/slider__cards.css);
+@import url(./__container/slider__container.css);
+@import url(./__info-block/slider__info-block.css);
+/* TEXT */
+@import url(./__price-after/slider__price-after.css);
+@import url(./__price-up-to/slider__price-up-to.css);
+@import url(./__text/slider__text.css);
+@import url(./__title-name/slider__title-name.css);
+@import url(./__title/slider__title.css);
+/* BUTTONS */
+@import url(./__card-button/slider__card-button.css);
+@import url(./__button/slider__button.css);
+/* ICONS & IMAGES */
+@import url(./__card-img/slider__card-img.css);
+@import url(./__plus-icon/slider__plus-icon.css);
+@import url(./__info-icon/slider__info-icon.css);
+@import url(./__discount/slider__discount.css);
+/* POPUP */
+@import url(./__popup-info/slider__popup-info.css);
+@import url(./__popup-like/slider__popup-like.css);
+@import url(./__popup-text/slider__popup-text.css);
+@import url(./__info/slider__info.css);
+@import url(./__info-button/slider__info-button.css);

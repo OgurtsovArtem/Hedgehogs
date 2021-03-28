@@ -1,0 +1,10 @@
+.width-control {
+  width: calc(100% - 5rem);
+  margin: 0 auto;
+}
+
+@media (max-width: 767px){
+  .width-control {
+    width: calc(100% - 2.5rem);
+  }
+}

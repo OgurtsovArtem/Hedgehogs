@@ -1,0 +1,18 @@
+.slider__info-button{
+  padding: 0;
+  margin-bottom: 0.5rem;
+  background-color: transparent;
+  border: none;
+}
+.slider__info-button:hover ~ .slider__popup-info {
+  transform: translate(0, 0);
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
+
+@media (max-width: 1388px) {
+  .slider__info-button{
+    display: none;
+  }
+}

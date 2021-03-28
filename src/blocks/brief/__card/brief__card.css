@@ -1,0 +1,32 @@
+.brief__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 11.375rem;
+}
+.brief__card:not(:last-child) {
+  margin-right: 9rem;
+}
+
+@media (min-width:920px){
+  .brief__card:nth-child(2) {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width:920px){
+  .brief__card {
+    margin-bottom: 2rem;
+  }
+  .brief__card:not(:last-child) {
+    margin-right:  7.1875rem;
+  }
+}
+@media (max-width:520px){
+  .brief__card:not(:last-child) {
+    margin-right: 1.25rem;
+  }
+  .brief__card {
+    max-width: 7.8125rem;
+  }
+}

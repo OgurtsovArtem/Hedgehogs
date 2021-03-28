@@ -2,3 +2,9 @@
   padding-top: 6rem;
   color: var(--main-text-color);
 }
+
+@media (max-width: 520px){
+  .brief__container{
+    padding-top: 3rem;
+  }
+}

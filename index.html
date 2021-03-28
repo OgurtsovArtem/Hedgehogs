@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name='description' content="Hedgehogs love milk too">
+  <meta name="author" content="Artem Ogurtsov">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <title>Hedgehogs</title>
+  <link rel="icon" href="./src/images/favicon.ico">
+  <link rel="stylesheet" href="main/main.464a0f4cde5a0049d5e6.css">
+</head>
+<body class="main-page">
+  <!-- | HEADER | -->
+  <header class="header">
+    <div class="header__container">
+      <!-- LOGO -->
+      <a class="header__logo">
+        <svg class="header__icon logo ">
+          <use href="#_sprite_logo"></use>
+        </svg>
+      </a>
+      <button class="button__burger">
+        <span></span>
+      </button>
+      <!-- NAVIGATION -->
+      <nav class="header__nav">
+        <ul class="header__ul">
+          <li class="header__li" id='submenu-directory'>
+            <span class="header__button-arrow"></span>
+            <a class="header__link link">Каталог</a>
+              <ul class="header__sub-list">
+                <li class="header__sub-li">
+                <a class="header__sub-link link">Ёжики</a>
+                </li>
+                <li class="header__sub-li">
+                  <a class="header__sub-link link">Питание</a>
+                </li>
+                <li class="header__sub-li">
+                  <a class="header__sub-link link">Переноски</a>
+                </li>
+                <li class="header__sub-li">
+                  <a class="header__sub-link link">Лекарства</a>
+                </li>
+              </ul>
+          </li>
+          <li class="header__li">
+            <a class="header__link link">О нас</a>
+          </li>
+          <li class="header__li">
+            <a class="header__link link">контакты</a>
+          </li>
+          <li class="header__li">
+            <a class="header__link link">галерея</a>
+          </li>
+        </ul>
+        <p class="header__phone_nav-number"> +7 (965) 569-89-98</p>
+      </nav>
+      <!-- PHONE -->
+      <div class="header__contact">
+        <button class="header__button header__phone">
+          <div class="header__phone-icon">
+            <svg class="header__icon phone">
+              <use href="#_sprite_phone"></use>
+            </svg>
+          </div>
+          <div class="header__phone-container">
+            <a class="header__phone_text">позвоните мне</a>
+            <p class="header__phone_number"> +7 (965) 569-89-98</p>
+          </div>
+        </button>
+      </div>
+      <!-- BACKET -->
+      <button class="header__button header__backet">
+        <svg class="header__icon backet">
+          <use href="#_sprite_backet"></use>
+        </svg>
+        <span class="header__backet_counter">1</span>
+      </button>
+    </div>
+  </header>
+
+<!-- |SECTION INTRO| -->
+
+  <section class="intro">
+    <img src="./src/images/background.jpg" alt="background" class="intro__background">
+    <!-- TITLE -->
+    <div class="intro__container width-control">
+      <!-- <h1 class="intro__title">Ёжики</h1> -->
+      <svg class="intro__title">
+        <use href="#_sprite_title"></use>
+      </svg>
+      <h2 class="intro__subtitle">Тоже любят молоко</h2>
+      <p class="intro__text">Заведите себе ёжика. Он всегда выслушает, не будет мяукать в 5 утра и царапать вашу мебель.</p>
+      <button class="button intro__button">Купить ёжика</button>
+    </div>
+
+  </section>
+
+<!-- |SECTION BRIEF| -->
+
+  <section class="brief">
+    <img class="brief__img hedgehog-dad" src="./src/images/hedgehog_dad.png" alt="hedgehog dad">
+    <img class="brief__img hedgehog-son" src="./src/images/hedgehog_son.png" alt="hedgehog son">
+      <!-- INFO BLOCK -->
+      <div class="brief__container width-control">
+        <div class="brief__cards-list">
+          <!-- FIRST CARD -->
+          <div class="brief__card">
+            <span class="brief__circle hedgehog">
+              <svg class="brief__icon hedgehog">
+                <use href="#_sprite_hedgehog"></use>
+              </svg>
+            </span>
+            <h5 class="brief__title">Разведение ёжиков</h5>
+            <p class="brief__subtitle">Собственная ферма, уход и содержание</p>
+          </div>
+          <!-- SECOND CARD -->
+          <div class="brief__card">
+            <span class="brief__circle vaccination">
+              <svg class="brief__icon vaccination">
+                <use href="#_sprite_vaccination"></use>
+              </svg>
+            </span>
+            <h5 class="brief__title">Здоровье</h5>
+            <p class="brief__subtitle">Всегда прививаем и вовремя обследуем ваших будущих питомцев</p>
+          </div>
+          <!-- THIRD CARD -->
+          <div class="brief__card">
+            <span class="brief__circle heart">
+              <svg class="brief__icon heart">
+                <use href="#_sprite_heart"></use>
+              </svg>
+            </span>
+            <h5 class="brief__title">Любовь и забота</h5>
+            <p class="brief__subtitle">Каждому ежику мы дарим много внимания</p>
+          </div>
+      </div>
+  </section>
+
+  <!-- |SECTION SLIDER| -->
+  <section class="slider">
+    <div class="slider__container width-control">
+
+      <!-- PREV BUTTON -->
+      <button class="slider__button button__back">
+        <svg class="slider__button_icon">
+          <use href="#_sprite_arrow-back"></use>
+        </svg>
+      </button>
+
+      <!-- SLIDER CONTAINER -->
+      <div class="slider__cards">
+        <!-- FIRST_CARD -->
+        <div class="slider__card">
+          <div class="slider__info-block">
+            <h5 class="slider__title">
+              Ёжик
+              <span class="slider__title-name">
+                "Максим"
+              </span>
+            </h5>
+            <p class="slider__text">Очень любит сладости. Маленький сладкоежка=) Мы называем его так между собой. Ручной, любит внимаение </p>
+            <p class="slider__price-up-to">3000 &#8381;</p>
+            <p class="slider__price-after">1500 &#8381;</p>
+          </div>
+          <img class="slider__card-img" src="./src/images/1.png" alt="card-img">
+          <span  class="slider__discount">-50 &#37;</span >
+            <!-- BLOCK INFO -->
+            <div class="slider__info">
+              <button class="slider__info-button">
+                <svg class="slider__info-icon _info">
+                  <use href="#_sprite_info"></use>
+                </svg>
+              </button>
+              <!-- pop-up block -->
+              <div class="slider__popup-info">
+                <svg class="slider__info-icon slider__info-icon_size">
+                  <use href="#_sprite_vaccination"></use>
+                </svg>
+                <p class="slider__popup-text">
+                  привит
+                </p>
+                <svg class="slider__info-icon slider__info-icon_size">
+                  <use href="#_sprite_heart"></use>
+                </svg>
+                <p class="slider__popup-like">
+                  7777
+                </p>
+              </div>
+            </div>
+          <button class="slider__card-button button__add">
+            <svg class="slider__plus-icon">
+              <use href="#_sprite_plus"></use>
+            </svg>
+          </button>
+        </div>
+
+        <!-- SECOND_CARD -->
+        <div class="slider__card">
+          <div class="slider__info-block">
+            <h5 class="slider__title">
+              Ёжик
+              <span class="slider__title-name">
+                "Евгений"
+              </span>
+            </h5>
+            <p class="slider__text">Немного игривый и задорный характер этого друга никого не оставит равнодушным!</p>
+            <p class="slider__price-up-to">3000 &#8381;</p>
+            <p class="slider__price-after">1500 &#8381;</p>
+          </div>
+          <img class="slider__card-img" src="./src/images/2.png" alt="card-img">
+          <span class="slider__discount">-50 &#37;</span >
+
+            <div class="slider__info">
+              <button class="slider__info-button">
+                <svg class="slider__info-icon _info">
+                  <use href="#_sprite_info"></use>
+                </svg>
+              </button>
+              <!-- pop-up block -->
+              <div class="slider__popup-info">
+                <svg class="slider__info-icon slider__info-icon_size">
+                  <use href="#_sprite_vaccination"></use>
+                </svg>
+                <p class="slider__popup-text">
+                  привит
+                </p>
+                <svg class="slider__info-icon slider__info-icon_size">
+                  <use href="#_sprite_heart"></use>
+                </svg>
+                <p class="slider__popup-like">
+                  7777
+                </p>
+              </div>
+            </div>
+          <button class="slider__card-button button__add">
+            <svg class="slider__plus-icon">
+              <use href="#_sprite_plus"></use>
+            </svg>
+          </button>
+        </div>
+
+        <!-- THIRD_CARD -->
+        <div class="slider__card">
+          <div class="slider__info-block">
+            <h5 class="slider__title">
+              Корм для ёжиков
+            </h5>
+            <p class="slider__text">Скомбинированое питание, которое содержит нужное количество витаминов и кальция</p>
+            <p class="slider__price-after">500 &#8381;</p>
+          </div>
+          <img class="slider__card-img" src="./src/images/3.png" alt="card-img">
+          <button class="slider__card-button button__add ">
+            <svg class="slider__plus-icon">
+              <use href="#_sprite_plus"></use>
+            </svg>
+          </button>
+        </div>
+
+      </div>
+        <!-- NEXT BUTTON -->
+      <button class="slider__button button__next">
+        <svg class="slider__button_icon">
+          <use href="#_sprite_arrow-next"></use>
+        </svg>
+      </button>
+
+    </div>
+  </section>
+
+  <!--|SECTION ORDER FORM|-->
+
+  <section class="order-form width-control">
+    <form>
+      <fieldset class="order-form__container">
+        <legend class="order-form__title">Заполните заявку и мы забронируем для Вас нового друга</legend>
+          <fieldset class="order-form__button-container">
+            <!-- 3 Больших -->
+            <fieldset class="order-form__checkbox-container">
+              <input type="checkbox" id="_011386851" class="order-form__checkbox-input">
+              <label for="_011386851" class="order-form__checkbox-lable">
+                <span class="order-form__checkbox-text">хочу ёжика для себя</span>
+              </label>
+              <input type="checkbox" id="_011382851" class="order-form__checkbox-input">
+              <label for="_011382851" class="order-form__checkbox-lable">
+                <span class="order-form__checkbox-text">хочу ёжика для детей</span>
+              </label>
+              <input type="checkbox" id="1" class="order-form__checkbox-input">
+              <label for="1" class="order-form__checkbox-lable">
+                <span class="order-form__checkbox-text">хочу ёжика для разведения</span>
+              </label>
+            </fieldset>
+            <!-- 4 маленьких -->
+            <fieldset class="order-form__radio-container">
+              <label  class="order-form__radio-lable">
+                <input type="radio" name="_011386851" class="order-form__radio-input">Мне нужен 1-2 ёжика
+              </label>
+              <label  class="order-form__radio-lable">
+                <input type="radio" name="_011386851" class="order-form__radio-input">Мне нужны 3 и более ёжиков
+              </label>
+              <label  class="order-form__radio-lable">
+                <input type="radio" name="_011386851" class="order-form__radio-input"> Мне нужны 3-4 ёжика
+              </label>
+             <label  class="order-form__radio-lable">
+              <input type="radio" name="_011386851" class="order-form__radio-input">Пока присматриваюсь
+             </label>
+            </fieldset>
+
+          </fieldset>
+          <fieldset class="order-form__data-container">
+            <input type="text" class="order-form__input order-form__input-text" placeholder="Ваше имя">
+            <input type="number" class="order-form__input order-form__input-number" placeholder="Ваш телефон">
+            <input type="email" class="order-form__input order-form__input-email" placeholder="Ваш e-mail">
+            <textarea name="" id="" cols="30" rows="10" class="order-form__textarea" placeholder="Комментарий к заявке"></textarea>
+          </fieldset>
+          <button class="button order-form__button">Купить ёжика</button>
+      </fieldset>
+    </form>
+  </section>
+
+  <!--|SECTION FOOTER|-->
+  <section class="stock">
+    <div class="stock__container width-control">
+      <div class="stock__title-container">
+        <svg class="stock__icon">
+          <use href="#_sprite_hedgehog-fill"></use>
+        </svg>
+        <p class="stock__title">
+          У на осталось еще:
+          <a href="" class="stock__storage">25 ёжиков</a>
+        </p>
+      </div>
+      <p class="stock__text">Торопитесь! Акция действует до <span class="stock__text-date"> 26. 02. 2023</span></p>
+    </div>
+  </section>
+
+    <!--|FOOTER|-->
+
+  <footer class="footer">
+    <div class="footer__container width-control">
+      <svg class="footer__logo">
+        <use href="#_sprite_logo"></use>
+      </svg>
+      <p class="footer__copyright">Все права защищены.<br>
+        Указанная стоимость товаров и условия их приобретения действительны на текущую дату.</p>
+      <nav class="footer__nav">
+        <ul class="footer__list">
+          <li class="footer__li">
+            <a href="" class="footer__link link">Каталог</a>
+          </li>
+          <li class="footer__li">
+            <a href="" class="footer__link link">О нас</a>
+          </li>
+          <li class="footer__li">
+            <a href="" class="footer__link link">Контакты</a>
+          </li>
+          <li class="footer__li">
+            <a href="" class="footer__link link">Галерея</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer__socials-container">
+        <a href="" class="footer__social-link">
+          <svg class="footer__social-icon">
+            <use href="#_sprite_instagram"></use>
+          </svg>
+        </a>
+        <a href="" class="footer__social-link">
+          <svg class="footer__social-icon">
+            <use href="#_sprite_facebook"></use>
+          </svg>
+        </a>
+        <a href="" class="footer__social-link">
+          <svg class="footer__social-icon">
+            <use href="#_sprite_twitter"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="footer__contacts">
+        <span>+7 (965) 569-89-98</span>
+      </div>
+
+    </div>
+
+  </footer>
+  <script src="main/main.1deb1e05a8a5a5614490.js"></script>
+</body>
+</html>

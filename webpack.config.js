@@ -91,6 +91,10 @@ module.exports = {
       filename: 'index.html',
       minify: false,
     }),
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery',
+    }),
     new WebpackMd5Hash(),
     new SpriteLoaderPlugin(),
   ],

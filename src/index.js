@@ -1,6 +1,7 @@
 /* eslint-disable max-len */
 import './index.css';
 import './images/icons/_sprite.svg';
+import './js/slider';
 
 // TEMPORARY CODE
 //= ===================================================================================================================================
@@ -31,25 +32,6 @@ function openMenu() {
 }
 
 headerButton.addEventListener('click', openMenu);
-//= ===================================================================================================================================
-// SLIDER
-//= ===================================================================================================================================
-const slides = document.querySelector('.slider__card');
-const container = document.querySelector('.slider__cards');
-const buttonBack = document.querySelector('.button__back');
-const buttonNext = document.querySelector('.button__next');
-
-const cardWidth = slides.offsetWidth;
-
-function nextSlide() {
-  container.scrollLeft += cardWidth;
-}
-function previousSlide() {
-  container.scrollLeft -= cardWidth;
-}
-
-buttonNext.addEventListener('click', nextSlide);
-buttonBack.addEventListener('click', previousSlide);
 
 // HEADER
 //= ===================================================================================================================================

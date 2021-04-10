@@ -54,9 +54,6 @@ module.exports = {
     },
     {
       test: /\.svg$/i,
-
-      // from all svg images
-      // include only sprite image
       include: /.*_sprite\.svg/,
 
       use: [

@@ -13,20 +13,17 @@ SwiperCore.use([Navigation, Pagination]);
 const swiper = new Swiper('.slider__cards', {
   // Optional parameters
   loop: true,
-
   direction: 'horizontal',
-  // If we need pagination
-
   // Navigation arrows
   navigation: {
     nextEl: '.button__next',
     prevEl: '.button__back',
   },
   breakpoints: {
-    // when window width is >= 640px
-    280: {
-      slidesPerView: 1,
+    0: {
+      slidesPerView: 1.3,
       spaceBetween: 40,
+      slidesOffsetBefore: -20,
     },
     500: {
       slidesPerView: 2,

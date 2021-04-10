@@ -10,6 +10,20 @@
 
 @media (max-width: 1388px) {
   .slider__card-img {
+    max-width: 17.0625rem;
+    max-height: 13.0625rem;
+  }
+}
+
+@media (max-width: 1124px) {
+  .slider__card-img {
+    max-width: 13.0625rem;
+    max-height: 10.0625rem;
+    bottom: 8%;
+  }
+}
+@media (max-width: 678px) {
+  .slider__card-img {
     max-width: 11.0625rem;
     max-height: 8.0625rem;
     bottom: 19%;

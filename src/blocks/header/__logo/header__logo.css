@@ -4,10 +4,10 @@
   top: 1.875rem;
   width: 7.5rem;
   height: 3.5rem;
-  z-index: 100;
+  z-index: 99999;
 }
 
-@media (max-width: 919px) {
+@media (max-width: 920px) {
   .header__logo {
     width: 3.5rem;
     height: 1.625rem;

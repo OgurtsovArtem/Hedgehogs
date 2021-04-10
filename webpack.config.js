@@ -54,9 +54,6 @@ module.exports = {
     },
     {
       test: /\.svg$/i,
-
-      // from all svg images
-      // include only sprite image
       include: /.*_sprite\.svg/,
 
       use: [
@@ -90,6 +87,10 @@ module.exports = {
       template: './src/index.html',
       filename: 'index.html',
       minify: false,
+    }),
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery',
     }),
     new WebpackMd5Hash(),
     new SpriteLoaderPlugin(),

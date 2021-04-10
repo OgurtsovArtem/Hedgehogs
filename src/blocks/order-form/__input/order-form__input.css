@@ -6,6 +6,7 @@
   border: none;
   margin-bottom: 1.25rem;
   margin-right: 1rem;
+  padding: 1rem;
 }
 .order-form__input:last-of-type {
   margin-right: 0;
@@ -14,7 +15,6 @@
   font-family: inherit;
   font-size: inherit;
   color: inherit;
-  padding-left: 1.6875rem;
 }
 @media (max-width: 660px) {
   .order-form__input {

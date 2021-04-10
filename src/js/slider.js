@@ -1,27 +1,38 @@
-const slides = document.querySelectorAll('.slider__card');
-const container = document.querySelector('.slider__cards');
-const buttonBack = document.querySelector('.button__back');
-const buttonNext = document.querySelector('.button__next');
-let currentSlide = 0;
+// import Swiper JS
+// eslint-disable-next-line import/no-duplicates
+import Swiper from 'swiper';
+// import Swiper styles
+import 'swiper/swiper-bundle.css';
 
-function goToSlide(n) {
-  const cardWidth = slides[currentSlide].offsetWidth();
-  const scrollValue = container.scrollLeft();
-  currentSlide = (n + slides.length) % slides.length;
-  if (container.scrollLeft() !== 0) {
-    const e = scrollValue - (cardWidth % 10);
-    const a = cardWidth - e;
-    container.scrollLeft += a;
-  }
-  container.scrollLeft += cardWidth;
-}
+// eslint-disable-next-line import/no-duplicates
+import SwiperCore, { Navigation, Pagination } from 'swiper/core';
 
-function nextSlide() {
-  goToSlide(currentSlide + 1);
-}
-function previousSlide() {
-  goToSlide(currentSlide - 1);
-}
+// configure Swiper to use modules
+SwiperCore.use([Navigation, Pagination]);
 
-buttonNext.addEventListener('click', nextSlide);
-buttonBack.addEventListener('click', previousSlide);
+const swiper = new Swiper('.slider__cards', {
+  // Optional parameters
+  loop: true,
+
+  direction: 'horizontal',
+  // If we need pagination
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.button__next',
+    prevEl: '.button__back',
+  },
+  breakpoints: {
+    // when window width is >= 640px
+    280: {
+      slidesPerView: 1,
+      spaceBetween: 40,
+    },
+    500: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+  },
+});
+
+export default swiper;
